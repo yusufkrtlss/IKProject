@@ -1,0 +1,17 @@
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\bin\Debug\net7.0\IKProject.DataAccessLayer.deps.json
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\bin\Debug\net7.0\IKProject.DataAccessLayer.runtimeconfig.json
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\bin\Debug\net7.0\IKProject.DataAccessLayer.dll
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\bin\Debug\net7.0\IKProject.DataAccessLayer.pdb
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\bin\Debug\net7.0\IKProject.EntityLayer.dll
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\bin\Debug\net7.0\IKProject.EntityLayer.pdb
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\obj\Debug\net7.0\IKProject.DataAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\obj\Debug\net7.0\IKProject.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\obj\Debug\net7.0\IKProject.DataAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\obj\Debug\net7.0\IKProject.DataAccessLayer.AssemblyInfo.cs
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\obj\Debug\net7.0\IKProject.DataAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\obj\Debug\net7.0\IKProject.DataAccessLayer.csproj.CopyComplete
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\obj\Debug\net7.0\IKProject.DataAccessLayer.dll
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\obj\Debug\net7.0\refint\IKProject.DataAccessLayer.dll
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\obj\Debug\net7.0\IKProject.DataAccessLayer.pdb
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\obj\Debug\net7.0\IKProject.DataAccessLayer.genruntimeconfig.cache
+C:\Users\Monster\source\repos\IKProject\IKProject.DataAccessLayer\obj\Debug\net7.0\ref\IKProject.DataAccessLayer.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\IKProject.UI.props" />
+</Project>
