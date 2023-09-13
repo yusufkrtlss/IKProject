@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net7.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
@@ -21,12 +21,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\IKProject.EntityLayer\IKProject.EntityLayer.csproj" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="EntityFramework\" />
-    <Folder Include="Repository\" />
   </ItemGroup>
 
 </Project>

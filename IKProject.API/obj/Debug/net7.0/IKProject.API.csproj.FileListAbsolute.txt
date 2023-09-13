@@ -86,3 +86,4 @@ C:\Users\Monster\source\repos\IKProject\IKProject.API\obj\Debug\net7.0\refint\IK
 C:\Users\Monster\source\repos\IKProject\IKProject.API\obj\Debug\net7.0\IKProject.API.pdb
 C:\Users\Monster\source\repos\IKProject\IKProject.API\obj\Debug\net7.0\IKProject.API.genruntimeconfig.cache
 C:\Users\Monster\source\repos\IKProject\IKProject.API\obj\Debug\net7.0\ref\IKProject.API.dll
+C:\Users\Monster\source\repos\IKProject\IKProject.API\bin\Debug\net7.0\AutoMapper.dll
