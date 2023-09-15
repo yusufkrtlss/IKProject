@@ -9,5 +9,6 @@ namespace IKProject.EntityLayer.Concrete
     public class Department : BaseEntity
     {
         public string DeptName { get; set; }
+        public ICollection<Staff> StaffMembers { get; set; } = new List<Staff>();
     }
 }

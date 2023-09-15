@@ -19,10 +19,29 @@ namespace IKProject.API.Controllers
             var values = _genderService.TGetList();
             return Ok(values);
         }
+        [HttpGet("{id}")]
+        public IActionResult GetGender(int id)
+        {
+            var values = _genderService.TGetByID(id);
+            return Ok(values);
+        }
         [HttpPost]
         public IActionResult AddGender(Gender gender)
         {
             _genderService.TAdd(gender);
+            return Ok();
+        }
+        [HttpDelete("{id}")]
+        public IActionResult DeleteGender(int id)
+        {
+            var values = _genderService.TGetByID(id);
+            _genderService.TDelete(values);
+            return Ok();
+        }
+        [HttpPut("UpdateGender")]
+        public IActionResult UpdateGender(Gender gender)
+        {
+            _genderService.TUpdate(gender);
             return Ok();
         }
     }

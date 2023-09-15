@@ -9,5 +9,6 @@ namespace IKProject.BusinessLayer.Abstract
 {
     public interface IApplicationService : IGenericService<Application>
     {
+        public void UploadPdfFile(string fileName, byte[] fileContent);
     }
 }

@@ -21,12 +21,30 @@ namespace IKProject.DataAccessLayer.Concrete
         public DbSet<Department> Departments { get; set; }
         public DbSet<Gender> Genders { get; set; }
         public DbSet<Meeting> Meeting { get; set; }
-        public DbSet<Staff> Staffs { get; set;}
+        public DbSet<Staff> Staffs { get; set; }
         public DbSet<StaffMeeting> StaffMeetings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
+            //modelBuilder.Entity<Staff>()
+            //.HasOne(s => s.Department)
+            //.WithMany(d => d.StaffMembers)
+            //.HasForeignKey(s => s.DepartmentId);
+
+            //modelBuilder.Entity<Staff>()
+            //    .HasOne(s => s.Meeting)
+            //    .WithMany(m => m.StaffMembers)
+            //    .HasForeignKey(s => s.MeetingId);
+
+            //modelBuilder.Entity<Comment>()
+            //    .HasOne(c => c.Staff)
+            //    .WithMany(s => s.Comments)
+            //    .HasForeignKey(c => c.StaffId);
+            //modelBuilder.Entity<Meeting>()
+            //.HasMany(m => m.StaffMembers)
+            //.WithOne(s => s.Meeting)
+            //.HasForeignKey(s => s.MeetingId);
         }
     }
 }

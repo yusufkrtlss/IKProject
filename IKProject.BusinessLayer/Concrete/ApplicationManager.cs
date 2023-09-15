@@ -42,5 +42,10 @@ namespace IKProject.BusinessLayer.Concrete
         {
             _applicationDal.Update(t);
         }
+
+        public void UploadPdfFile(string fileName, byte[] fileContent)
+        {
+            _applicationDal.UploadPdfFile(fileName, fileContent);
+        }
     }
 }

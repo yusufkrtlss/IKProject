@@ -720,6 +720,60 @@
           "lib/netstandard2.0/Mono.TextTemplating.dll": {}
         }
       },
+      "PDFsharp-MigraDoc-gdi/1.50.5147": {
+        "type": "package",
+        "compile": {
+          "lib/net20/MigraDoc.DocumentObjectModel-gdi.dll": {
+            "related": ".xml"
+          },
+          "lib/net20/MigraDoc.Rendering-gdi.dll": {
+            "related": ".xml"
+          },
+          "lib/net20/MigraDoc.RtfRendering-gdi.dll": {
+            "related": ".xml"
+          },
+          "lib/net20/PdfSharp-gdi.dll": {
+            "related": ".xml"
+          },
+          "lib/net20/PdfSharp.Charting-gdi.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net20/MigraDoc.DocumentObjectModel-gdi.dll": {
+            "related": ".xml"
+          },
+          "lib/net20/MigraDoc.Rendering-gdi.dll": {
+            "related": ".xml"
+          },
+          "lib/net20/MigraDoc.RtfRendering-gdi.dll": {
+            "related": ".xml"
+          },
+          "lib/net20/PdfSharp-gdi.dll": {
+            "related": ".xml"
+          },
+          "lib/net20/PdfSharp.Charting-gdi.dll": {
+            "related": ".xml"
+          }
+        },
+        "resource": {
+          "lib/net20/de/MigraDoc.DocumentObjectModel-gdi.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net20/de/MigraDoc.Rendering-gdi.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net20/de/MigraDoc.RtfRendering-gdi.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net20/de/PdfSharp-gdi.resources.dll": {
+            "locale": "de"
+          },
+          "lib/net20/de/PdfSharp.Charting-gdi.resources.dll": {
+            "locale": "de"
+          }
+        }
+      },
       "System.CodeDom/4.4.0": {
         "type": "package",
         "compile": {
@@ -2173,6 +2227,32 @@
         "mono.texttemplating.nuspec"
       ]
     },
+    "PDFsharp-MigraDoc-gdi/1.50.5147": {
+      "sha512": "hrPNGJ95aW03D9x2TYuadoR8bPh+pi/z6lYWspYU81QSjNAExy8F6+1dV5KBILZXu4R2dtawmX7SjKtCP8sEHg==",
+      "type": "package",
+      "path": "pdfsharp-migradoc-gdi/1.50.5147",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net20/MigraDoc.DocumentObjectModel-gdi.dll",
+        "lib/net20/MigraDoc.DocumentObjectModel-gdi.xml",
+        "lib/net20/MigraDoc.Rendering-gdi.dll",
+        "lib/net20/MigraDoc.Rendering-gdi.xml",
+        "lib/net20/MigraDoc.RtfRendering-gdi.dll",
+        "lib/net20/MigraDoc.RtfRendering-gdi.xml",
+        "lib/net20/PdfSharp-gdi.dll",
+        "lib/net20/PdfSharp-gdi.xml",
+        "lib/net20/PdfSharp.Charting-gdi.dll",
+        "lib/net20/PdfSharp.Charting-gdi.xml",
+        "lib/net20/de/MigraDoc.DocumentObjectModel-gdi.resources.dll",
+        "lib/net20/de/MigraDoc.Rendering-gdi.resources.dll",
+        "lib/net20/de/MigraDoc.RtfRendering-gdi.resources.dll",
+        "lib/net20/de/PdfSharp-gdi.resources.dll",
+        "lib/net20/de/PdfSharp.Charting-gdi.resources.dll",
+        "pdfsharp-migradoc-gdi.1.50.5147.nupkg.sha512",
+        "pdfsharp-migradoc-gdi.nuspec"
+      ]
+    },
     "System.CodeDom/4.4.0": {
       "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
       "type": "package",
@@ -3076,7 +3156,8 @@
       "Microsoft.EntityFrameworkCore >= 7.0.11",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.11",
       "Microsoft.EntityFrameworkCore.SqlServer >= 7.0.11",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.11"
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.11",
+      "PDFsharp-MigraDoc-gdi >= 1.50.5147"
     ]
   },
   "packageFolders": {
@@ -3141,6 +3222,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[7.0.11, )"
+          },
+          "PDFsharp-MigraDoc-gdi": {
+            "target": "Package",
+            "version": "[1.50.5147, )"
           }
         },
         "imports": [
@@ -3162,5 +3247,17 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PDFsharp-MigraDoc-gdi 1.50.5147' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net7.0'. This package may not be fully compatible with your project.",
+      "libraryId": "PDFsharp-MigraDoc-gdi",
+      "targetGraphs": [
+        "net7.0"
+      ]
+    }
+  ]
 }

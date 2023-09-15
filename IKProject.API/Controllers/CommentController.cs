@@ -13,16 +13,37 @@ namespace IKProject.API.Controllers
         {
             _commentService = commentService;
         }
+
         [HttpGet]
-        public IActionResult GetComments()
+        public IActionResult GetAllComments()
         {
-            var values = _commentService.TGetList();
+            var commentEntities = _commentService.TGetList();
+            return Ok(commentEntities);
+        }
+        [HttpGet("{id}")]
+        public IActionResult GetComment(int id)
+        {
+            var values = _commentService.TGetByID(id);
             return Ok(values);
         }
+
         [HttpPost]
         public IActionResult AddComment(Comment comment)
         {
             _commentService.TAdd(comment);
+            return Ok();
+        }
+        [HttpDelete("{id}")]
+        public IActionResult DeleteComment(int id)
+        {
+            var values = _commentService.TGetByID(id);
+            _commentService.TDelete(values);
+            return Ok();
+        }
+        [HttpPut("UpdateComment")]
+        public IActionResult UpdateComment(Comment comment)
+        {
+            _commentService.TUpdate(comment);
             return Ok();
         }
     }

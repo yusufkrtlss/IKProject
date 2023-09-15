@@ -20,12 +20,14 @@ namespace IKProject.EntityLayer.Concrete
         public DateTime Birthday { get; set; }
         public DateTime StartingDate { get; set; }
         public DateTime EndingDate { get; set; }
+        public bool Status { get; set; }
         public int DepartmentId { get; set; } // Department Foreign Key
         public Department Department { get; set; }
         public int GenderId { get; set; } // Gender Foreign Key
         public Gender Gender { get; set; }
-        public ICollection<Comment> Comments { get; set; } // Yönetici tarafından oluşturulan geçmiş yorumları da görmek için ICollection
-        public ICollection<StaffMeeting> StaffMeetings { get; set; } // Çalışan 1'den fazla toplantıya katılabilir.
+        public ICollection<Comment> Comments { get; set; } = new List<Comment>();
+        public int MeetingId { get; set; }
+        public Meeting Meeting { get; set; }
 
         // Özel Alanlar
         public string Ozel_Alan1 { get; set; }

@@ -9,5 +9,6 @@ namespace IKProject.DataAccessLayer.Abstract
 {
     public interface IApplicationDal : IGenericDal<Application>
     {
+        public void UploadPdfFile(string fileName, byte[] fileContent);
     }
 }

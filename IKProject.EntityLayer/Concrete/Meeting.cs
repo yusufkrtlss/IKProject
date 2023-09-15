@@ -10,6 +10,6 @@ namespace IKProject.EntityLayer.Concrete
     {
         public string MeetingTitle { get; set; }
         public DateTime MeetingDate { get; set; }
-        public ICollection<StaffMeeting> StaffMeetings { get; set; }
+        public ICollection<Staff> StaffMembers { get; set; } = new List<Staff>();
     }
 }
