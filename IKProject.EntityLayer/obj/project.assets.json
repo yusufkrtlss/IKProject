@@ -3060,26 +3060,31 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Monster\\.nuget\\packages\\": {}
+    "C:\\Users\\Savran Korkmaz\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj",
+      "projectUniqueName": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj",
       "projectName": "IKProject.EntityLayer",
-      "projectPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj",
-      "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\obj\\",
+      "projectPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj",
+      "packagesPath": "C:\\Users\\Savran Korkmaz\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Monster\\NuGet.Config",
-        "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Savran Korkmaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -3139,7 +3144,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

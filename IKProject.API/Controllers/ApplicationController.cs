@@ -14,47 +14,77 @@ namespace IKProject.API.Controllers
         {
             _applicationService = applicationService;
         }
+
         [HttpGet]
         public IActionResult GetAllApplications()
         {
-            var commentEntities = _applicationService.TGetList();
-            return Ok(commentEntities);
+            var applications = _applicationService.TGetList();
+            return Ok(applications);
         }
+
         [HttpGet("{id}")]
         public IActionResult GetApplication(int id)
         {
-            var values = _applicationService.TGetByID(id);
-            return Ok(values);
+            var application = _applicationService.TGetByID(id);
+
+            if (application == null)
+            {
+                return NotFound();
+            }
+
+            return Ok(application);
         }
 
         [HttpPost]
-        public IActionResult AddCApplication(Application comment)
+        public IActionResult AddApplication(Application application)
         {
-            _applicationService.TAdd(comment);
-            return Ok();
+            if (application == null)
+            {
+                return BadRequest();
+            }
+
+            _applicationService.TAdd(application);
+            return Ok("Application successfully added.");
         }
+
         [HttpDelete("{id}")]
         public IActionResult DeleteApplication(int id)
         {
-            var values = _applicationService.TGetByID(id);
-            _applicationService.TDelete(values);
-            return Ok();
+            var application = _applicationService.TGetByID(id);
+
+            if (application == null)
+            {
+                return NotFound();
+            }
+
+            _applicationService.TDelete(application);
+            return Ok("Application successfully deleted.");
         }
+
         [HttpPut("UpdateApplication")]
-        public IActionResult UpdateComment(Application comment)
+        public IActionResult UpdateApplication(Application application)
         {
-            _applicationService.TUpdate(comment);
-            return Ok();
-        }
-        [HttpPost("upload")]
-        public IActionResult UploadPdf([FromBody] PdfUploadModel model)
-        {
-            if (model == null || model.FileName == null || model.PdfData == null)
+            if (application == null)
+            {
                 return BadRequest();
+            }
 
-            _applicationService.UploadPdfFile(model.FileName, model.PdfData);
-
-            return Ok("PDF başarıyla yüklendi ve veritabanına kaydedildi.");
+            _applicationService.TUpdate(application);
+            return Ok("Application successfully updated.");
         }
+
+
+        [HttpPost("upload")]
+    public IActionResult UploadPdf([FromBody] PdfUploadModel model)
+{
+    if (model == null || string.IsNullOrWhiteSpace(model.FileName) || model.PdfData == null)
+    {
+        return BadRequest("");
+    }
+
+    _applicationService.UploadPdfFile(model.FileName, model.PdfData);
+
+    return Ok("PDF yüklendi");
+    }
     }
 }

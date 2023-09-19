@@ -12,3 +12,17 @@ C:\Users\Monster\source\repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\r
 C:\Users\Monster\source\repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\IKProject.EntityLayer.pdb
 C:\Users\Monster\source\repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\IKProject.EntityLayer.genruntimeconfig.cache
 C:\Users\Monster\source\repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\ref\IKProject.EntityLayer.dll
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\bin\Debug\net7.0\IKProject.EntityLayer.deps.json
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\bin\Debug\net7.0\IKProject.EntityLayer.runtimeconfig.json
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\bin\Debug\net7.0\IKProject.EntityLayer.dll
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\bin\Debug\net7.0\IKProject.EntityLayer.pdb
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\IKProject.EntityLayer.csproj.AssemblyReference.cache
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\IKProject.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\IKProject.EntityLayer.AssemblyInfoInputs.cache
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\IKProject.EntityLayer.AssemblyInfo.cs
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\IKProject.EntityLayer.csproj.CoreCompileInputs.cache
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\IKProject.EntityLayer.dll
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\refint\IKProject.EntityLayer.dll
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\IKProject.EntityLayer.pdb
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\IKProject.EntityLayer.genruntimeconfig.cache
+C:\Users\Savran Korkmaz\Source\Repos\IKProject\IKProject.EntityLayer\obj\Debug\net7.0\ref\IKProject.EntityLayer.dll
