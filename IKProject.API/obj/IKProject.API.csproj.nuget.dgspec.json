@@ -1,42 +1,45 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.API\\IKProject.API.csproj": {}
+    "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.API\\IKProject.API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.API\\IKProject.API.csproj": {
+    "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.API\\IKProject.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.API\\IKProject.API.csproj",
+        "projectUniqueName": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.API\\IKProject.API.csproj",
         "projectName": "IKProject.API",
-        "projectPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.API\\IKProject.API.csproj",
-        "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.API\\obj\\",
+        "projectPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.API\\IKProject.API.csproj",
+        "packagesPath": "C:\\Users\\Savran Korkmaz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.API\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Monster\\NuGet.Config",
-          "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Savran Korkmaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files\\dotnet\\sdk\\7.0.308\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.BusinessLayer\\IKProject.BusinessLayer.csproj": {
-                "projectPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.BusinessLayer\\IKProject.BusinessLayer.csproj"
+              "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.BusinessLayer\\IKProject.BusinessLayer.csproj": {
+                "projectPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.BusinessLayer\\IKProject.BusinessLayer.csproj"
               },
-              "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj"
+              "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj"
               },
-              "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj"
+              "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj"
               }
             }
           }
@@ -103,39 +106,43 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.BusinessLayer\\IKProject.BusinessLayer.csproj": {
+    "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.BusinessLayer\\IKProject.BusinessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.BusinessLayer\\IKProject.BusinessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.BusinessLayer\\IKProject.BusinessLayer.csproj",
         "projectName": "IKProject.BusinessLayer",
-        "projectPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.BusinessLayer\\IKProject.BusinessLayer.csproj",
-        "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.BusinessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.BusinessLayer\\IKProject.BusinessLayer.csproj",
+        "packagesPath": "C:\\Users\\Savran Korkmaz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.BusinessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Monster\\NuGet.Config",
-          "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Savran Korkmaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj": {
-                "projectPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj"
+              "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj": {
+                "projectPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj"
               },
-              "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj"
+              "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj"
               }
             }
           }
@@ -187,36 +194,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj": {
+    "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj",
         "projectName": "IKProject.DataAccessLayer",
-        "projectPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj",
-        "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.DataAccessLayer\\obj\\",
+        "projectPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.DataAccessLayer\\IKProject.DataAccessLayer.csproj",
+        "packagesPath": "C:\\Users\\Savran Korkmaz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.DataAccessLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Monster\\NuGet.Config",
-          "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Savran Korkmaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj": {
-                "projectPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj"
+              "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj": {
+                "projectPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj"
               }
             }
           }
@@ -250,10 +261,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.11, )"
-            },
-            "PDFsharp-MigraDoc-gdi": {
-              "target": "Package",
-              "version": "[1.50.5147, )"
             }
           },
           "imports": [
@@ -272,28 +279,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj": {
+    "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj",
+        "projectUniqueName": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj",
         "projectName": "IKProject.EntityLayer",
-        "projectPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj",
-        "packagesPath": "C:\\Users\\Monster\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Monster\\source\\repos\\IKProject\\IKProject.EntityLayer\\obj\\",
+        "projectPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\IKProject.EntityLayer.csproj",
+        "packagesPath": "C:\\Users\\Savran Korkmaz\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Savran Korkmaz\\Source\\Repos\\IKProject\\IKProject.EntityLayer\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Monster\\NuGet.Config",
-          "C:\\Users\\Monster\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Savran Korkmaz\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -353,7 +364,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.308\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
