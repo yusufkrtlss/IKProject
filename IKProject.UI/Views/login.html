@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giriş Sayfası</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f7;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .login-container {
+            max-width: 400px;
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-top: 15px;
+        }
+
+        input {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #d1d8e4;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        .submit-button {
+            display: block;
+            width: 100%;
+            margin-top: 20px;
+            background-color: #34495e;
+            color: #ecf0f1;
+            border: none;
+            padding: 12px 24px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+        .footer {
+            text-align: center;
+            display: flex;
+            position: fixed;
+            padding: 20px 0;
+            bottom: 0;
+            z-index: 10;
+        }
+
+        .footer img {
+            max-width: 100px;
+        }
+
+        .submit-button:hover {
+            background-color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Giriş Yap</h2>
+        <form action="/login" method="post">
+            <label for="username">Kullanıcı Adı:</label>
+            <input type="text" id="username" name="username" placeholder="Kullanıcı Adınız..." required>
+
+            <label for="password">Şifre:</label>
+            <input type="password" id="password" name="password" placeholder="Şifreniz..." required>
+
+            <input class="submit-button" type="submit" value="Giriş Yap">
+        </form>
+    </div>
+    <div class="footer">
+        <img src="https://www.bilsoft.com/images/logolar/bilsoft_logo_1.png" alt="Footer Logo">
+    </div>
+</body>
+</html>

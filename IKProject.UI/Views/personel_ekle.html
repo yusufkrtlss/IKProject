@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personel Ekleme</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #eef2f7;
+            margin: 0;
+            padding: 0;
+        }
+
+        .appbar,
+        .form-container,
+        .footer {
+            margin-bottom: 25px;
+        }
+
+        .appbar {
+            text-align: center;
+            background-color: #34495e;
+            color: #ecf0f1;
+            padding: 20px 0;
+            box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .appbar button {
+            padding: 12px 24px;
+            border: none;
+            background-color: #e74c3c;
+            color: #fff;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s;
+        }
+
+        .appbar button:hover {
+            background-color: #c0392b;
+        }
+
+        .form-container {
+            max-width: 1200px;
+            padding: 25px;
+            margin: 20px auto;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .form-section {
+            flex: 1;
+            padding: 0 20px;
+        }
+
+        .form-section:first-child {
+            border-right: 1px solid #d1d8e4;
+        }
+
+        .form-container .avatar {
+            cursor: pointer;
+            position: relative;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .avatar img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            display: block;
+        }
+
+        .avatar input[type="file"] {
+            display: none;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 8px;
+            font-size: 15px;
+        }
+
+        input,
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #d1d8e4;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #34495e;
+            color: #ecf0f1;
+            border: none;
+            padding: 12px 24px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #2c3e50;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px 0;
+            color: #ecf0f1;
+            width: 100% !important;
+            box-shadow: 0 -3px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .footer img {
+            max-width: 120px;
+        }
+
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: auto;
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        .modal-content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background-color: #f9f9f9;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+        }
+
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .close:hover,
+        .close:focus {
+            color: #333;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        .modal-button {
+            background-color: #34495e;
+            color: #ecf0f1;
+            border: none;
+            padding: 12px 24px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        .modal-button:hover {
+            background-color: #2c3e50;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="appbar">
+        <h1>Personel Ekleme</h1>
+        <button onclick="location.href='index.html'">Geri Dön</button>
+    </div>
+
+    <form action="/submit-form" method="post">
+        <div class="form-container">
+            <div class="form-section">
+                <label for="foto">Fotoğraf:</label>
+                <div class="avatar" onclick="document.getElementById('foto').click();">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvwIVQnfQU_ub9t1jmiSv7B-GtBtmPRF0yUkNR7MeToOTO3Kizu5C-AhZWEK4jzBuR6S0&usqp=CAU"
+                        alt="Personel Fotoğrafı" id="previewImage">
+                    <input type="file" id="foto" name="foto" accept="image/*" onchange="previewFile()">
+                </div>
+
+                <label for="isim">Çalışan Adı:</label>
+                <input type="text" id="isim" name="isim" placeholder="Çalışan adını giriniz" required>
+                <label for="soyisim">Çalışan Soyadı:</label>
+                <input type="text" id="soyisim" name="soyisim" placeholder="Çalışan soyadınızı giriniz" required>
+                <label for="tcno">Çalışan TC No:</label>
+                <input type="text" id="tcno" name="tcno" placeholder="Çalışan TC kimlik numarasını giriniz" required>
+
+                <label for="dogumTarihi">Doğum Tarihi:</label>
+                <input type="date" id="dogumTarihi" name="dogumTarihi" required>
+
+
+                <label for="unvan">Unvan:</label>
+                <input type="text" id="unvan" name="unvan" placeholder="Çalışan unvanını giriniz" required>
+            </div>
+            <div class="form-section">
+
+                <label for="tel1">Çalışan Telefon No 1:</label>
+                <input type="tel" id="tel1" name="tel1" placeholder="Çalışan telefon numarasını giriniz" required>
+
+                <label for="tel2">Çalışan Telefon No 2:</label>
+                <input type="tel" id="tel2" name="tel2" placeholder="Çalışan alternatif telefon numarasını giriniz">
+
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email" placeholder="Çalışan e-posta adresini giriniz" required>
+
+                <label for="cinsiyet">Cinsiyet:</label>
+                <select id="cinsiyet" name="cinsiyet">
+                    <option value="erkek">Erkek</option>
+                    <option value="kadin">Kadın</option>
+                </select>
+                <label for="iseBaslamaTarihi">İşe Başlama Tarihi:</label>
+                <input type="date" id="iseBaslamaTarihi" name="iseBaslamaTarihi" required>
+
+                <label for="istenCikisTarihi">İşten Çıkış Tarihi:</label>
+                <input type="date" id="istenCikisTarihi" name="istenCikisTarihi">
+
+                <label for="departman">Departman:</label>
+                <select id="departman" name="departman">
+                    <option value="pazarlama">Pazarlama</option>
+                    <option value="satis">Satış</option>
+                    <option value="yazilim">Yazılım</option>
+                </select>
+
+                <label for="adres">Adres:</label>
+                <textarea id="adres" name="adres" rows="4" placeholder="Çalışan adresinizi Giriniz" required></textarea>
+
+                <input class="submit-button" type="submit" value="Ekle">
+            </div>
+            
+            
+        </div>
+    </form>
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Personel başarıyla eklendi!</p>
+            <button class="modal-button" id="modalCloseButton">Kapat</button>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <img src="https://www.bilsoft.com/images/logolar/bilsoft_logo_1.png" alt="Footer Logo">
+    </div>
+
+    <script>
+        function previewFile() {
+            const preview = document.getElementById('previewImage');
+            const file = document.getElementById('foto').files[0];
+            const reader = new FileReader();
+
+            reader.addEventListener("load", function () {
+                preview.src = reader.result;
+            }, false);
+
+            if (file) {
+                reader.readAsDataURL(file);
+            }
+        }
+        var modal = document.getElementById("myModal");
+        var span = document.getElementsByClassName("close")[0];
+        var modalCloseButton = document.getElementById("modalCloseButton");
+
+        document.querySelector('.submit-button').addEventListener('click', function (e) {
+            e.preventDefault();
+            modal.style.display = "block";
+        });
+
+        span.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        modalCloseButton.onclick = function () {
+            modal.style.display = "none";
+        }
+
+        window.onclick = function (event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
